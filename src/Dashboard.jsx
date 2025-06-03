@@ -38,7 +38,7 @@ function Dashboard() {
                 <div className={styles.wrapItem} onClick={() => navigate('/#')}>
                     <p>Criar produto</p>
                 </div>
-                <div className={styles.wrapItem} onClick={() => navigate('/#')}>
+                <div className={styles.wrapItem} onClick={() => navigate('/productsList')}>
                     <p>Lista de produtos - ({productCount} produtos)</p>
                 </div>
                 <div className={styles.wrapItem} onClick={() => navigate('/#')}>
